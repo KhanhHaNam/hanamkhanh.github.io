@@ -1,0 +1,12 @@
+# begin
+from random import randint 
+a=randint(1,1000)
+while True: 
+    b= int(input("guess the number :")) 
+    if b==a : 
+        print("you are the best!(^3^)") 
+        break 
+    elif b>=a:
+        print("too hight('_')")
+    else :
+        print("too small ")
